@@ -1,0 +1,40 @@
+.what_we_cook {
+	max-height: 400px;
+	width: 100%;
+	background-color: #202020;
+
+	&__inner {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: space-between;
+
+		margin-left: 6rem;
+	}
+
+	&__content {
+		max-width: 530px;
+		padding: 120px 0 20px;
+		
+	}
+
+	&__img {
+		display: block;
+		max-height: 400px;
+	}
+
+	&__title {
+		font-family: 'GoodDog Cool', 'montserrat', sans-serif;
+		font-size: 1.8rem;
+		color: $green;
+		margin-bottom: 2.5rem;
+	}
+
+	&__text {
+		font-size: 1.1rem;
+		font-weight: 300;
+
+	}
+}

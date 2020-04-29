@@ -1,0 +1,22 @@
+.we_like {
+	padding: 6.5rem 0 5.25rem;
+	background-color: $bg-green;
+	text-align: center;
+	&__inner {
+		width: 100%;
+		max-width: 688px;
+		margin: 0 auto;
+	}
+	&__title {
+		font-family: $dog, $mon, sans-serif;
+		font-size: 2.56rem;
+		font-weight: normal;
+	}
+
+	&__text {
+		padding: 2.5rem 0 3.12rem;
+		font-size: 1.25rem;
+	}
+
+	
+}
