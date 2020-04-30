@@ -53,3 +53,18 @@
 		left: 0;
 	}
 }
+
+.new_menu__title, .discover_title {
+		margin-bottom: 2.5rem;
+		font-family: $dog, $mon, sans-serif;
+		font-size: 4.37rem;
+		line-height: 4rem;
+		font-weight: normal;
+		text-align: center;
+}
+
+.new_menu__subtitle, .discover_title__span {
+		font-family: $mon, sans-serif;
+		font-size: 2.81rem;
+		text-transform: uppercase;
+}
