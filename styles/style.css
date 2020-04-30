@@ -4385,3 +4385,49 @@ body {
     position: absolute;
     top: 4px;
     left: 0; }
+
+.booking {
+  background-color: #202020; }
+  .booking__title {
+    padding: 3.12rem 0 2.81rem;
+    margin-left: -4px;
+    font-family: "GoodDog Cool", "Montserrat", sans-serif;
+    font-size: 4.81rem;
+    font-weight: normal;
+    text-align: center; }
+  .booking__item {
+    margin-bottom: 2.81rem; }
+  .booking__label {
+    display: block;
+    width: 100%;
+    max-width: 240px;
+    font-weight: 700;
+    line-height: 2rem; }
+  .booking__field {
+    display: block;
+    width: 100%;
+    max-width: 240px;
+    padding: 0.31rem 0.43rem;
+    background-color: #202020;
+    border: 2px solid #eaeaea;
+    border-radius: 10px;
+    color: #eaeaea; }
+  .booking__button {
+    display: block;
+    margin: 0.6rem auto 4.37rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .1s; }
+  .booking__button:hover {
+    color: #afc67b;
+    border-color: #afc67b; }
+  .booking__select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #202020 url(../images/scroller.png) 97% center no-repeat;
+    -webkit-background-size: auto;
+    background-size: auto; }
+
+/*# sourceMappingURL=style.css.map */

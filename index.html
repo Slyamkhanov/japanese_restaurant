@@ -198,66 +198,42 @@
 		</div>
 		<img src="images/new_menu2.jpg" alt="" class="new_menu__img">
 	</section>
-	<form action="/signup" method="POST">
-  <p>
-    <label>Обращение</label>
-    <label>
-      <input type="radio" name="title" value="mr">
-      Г-н
-    </label>
-    <label>
-      <input type="radio" name="title" value="mrs">
-      Г-жа
-    </label>
-  </p>
-  <p>
-    <label>Имя</label>
-    <input type="text" name="first_name">
-  </p>
-  <p>
-    <label>Фамилия</label>
-    <input type="text" name="last_name">
-  </p>
-  <p>
-    <label>Email</label>
-    <input type="email" name="email">
-  </p>
-  <p>
-    <label>Телефон</label>
-    <input type="tel" name="phone">
-  </p>
-  <p>
-    <label>Пароль</label>
-    <input type="password" name="password">
-  </p>
-  <p>
-    <label>Подтвердите пароль</label>
-    <input type="password" name="password_confirm">
-  </p>
-  <p>
-    <label>Страна</label>
-    <select name="country">
-      <option>Канада</option>
-      <option>Франция</option>
-      <option>Германия</option>
-      <option>Италия</option>
-      <option>Япония</option>
-      <option>Россия</option>
-      <option>Великобритания</option>
-      <option>США</option>
-    </select>
-  </p>
-  <p>
-    <label>
-      <input type="checkbox" name="terms">
-      Я согласен с <a href="/terms">условиями использования</a>
-    </label>
-  </p>
-  <p>
-    <button>
-      Зарегистрироваться
-    </button>
-  </p>
-</form>
+	<section class="booking">
+		<div class="container-xl">
+			<h3 class="booking__title">Book here</h3>
+			<form action="" class="booking__form row  row-cols-3 justify-content-between">
+				<div class="booking__item ">
+					<label for="" class="booking__label ">How many people?<select type="text" class="booking__field booking__select col-md-4">
+						<option value="" class="booking__people_amount">1 people</option>
+						<option value="" class="booking__people_amount">2 people</option>
+						<option value="" class="booking__people_amount">3 people</option>
+						<option value="" class="booking__people_amount">4 people</option>
+						<option value="" class="booking__people_amount">5 people</option>
+						<option value="" class="booking__people_amount">6 people</option>
+						<option value="" class="booking__people_amount">7 people</option>
+						<option value="" class="booking__people_amount">8 people</option>
+						<option value="" class="booking__people_amount">9 people</option>
+						<option value="" class="booking__people_amount">10 people</option>
+					</select></label>
+				</div>
+				<div class="booking__item ">
+					<label for="" class="booking__label m-auto">When is your date?<input type="date" placeholder="17-02-2020" class="booking__field"></label>
+				</div>
+				<div class="booking__item ">
+					<label for="" class="booking__label ml-auto">Time<input type="time" placeholder="10:00am" class="booking__field"></label>
+				</div>
+				<div class="booking__item">
+					<label for="" class="booking__label ">Name<input type="text" placeholder="Full name" class="booking__field"></label>
+				</div>				
+				<div class="booking__item">
+					<label for="" class="booking__label m-auto">Email<input type="email" placeholder="Your email address" class="booking__field"></label>
+				</div>
+				<div class="booking__item">
+					<label for="" class="booking__label ml-auto">Phone<input type="tel" placeholder="Your phone" class="booking__field "></label>
+				</div>
+				<input type="submit" value="submit" class="booking__button col-md-4 booking__field " >
+			</form>
+		</div>
+	</section>
 </select>
 </html>
