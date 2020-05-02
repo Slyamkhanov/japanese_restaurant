@@ -1,9 +1,4 @@
-
 /*Bootstrap*/
-@import "bootstrap/functions";
-@import "bootstrap/variables";
-@import "bootstrap/mixins";
-@import "bootstrap/grid";
 @import "bootstrap/bootstrap-grid";
 
 
@@ -20,6 +15,8 @@
 @import "news";
 @import "menu";
 @import "we_like";
-@import "_new__menu";
+@import "new__menu";
 @import "booking";
 @import "new_card_menu";
+@import "quote";
+@import "footer";
