@@ -1,0 +1,44 @@
+.quote {
+  background-color: $bg-black;
+  padding: 0 0 2.81rem;
+  text-align: center;
+
+  &__inner {
+    width: 100%;
+    max-width: 690px;
+    margin: 0 auto;
+  }
+  &__text {
+    padding-top: 6.56rem;
+    margin: 0;
+    background: url(../images/quote.png) 50% 29% no-repeat;
+    background-size: auto;
+    font-style: normal;
+    font-size: 1.12rem;
+    color: $green;
+  }
+  &__autor {
+    display: block;
+    font-family: $dog, $mon, sans-serif;
+    font-size: 1.89rem;
+    font-style: normal;
+    margin: 1.5rem 0 2.18rem;
+
+  }
+  &__logo {
+    height:45px;
+    width: 45px;
+    margin-left: 25px;
+    fill: white;
+    transition: all .1s;
+    cursor: pointer;
+  }
+
+  &__logo:first-child {
+    margin-left: 0;
+  }
+
+  &__logo:hover {
+    fill: $green;
+  }
+}

@@ -1,0 +1,66 @@
+.booking {
+	background-color: $bg-black;
+	&__title {
+		padding: 3.12rem 0 2.81rem;
+		margin-left: -4px;
+		font-family: $dog, $mon, sans-serif;
+		font-size: 4.81rem;
+		font-weight: normal;
+		text-align: center;
+	}
+	
+	&__item {
+		margin-bottom: 2.81rem;
+	}
+
+	&__label {
+		display: block;
+		width: 100%;
+		max-width: 240px;
+
+		font-weight: 700;
+		line-height: 2rem;
+		
+	}
+
+	&__field {
+		display: block;
+		width: 100%;
+		max-width: 240px;
+		padding: 0.31rem 0.43rem;
+		background-color: $bg-black;
+		
+		border: 2px solid $white;
+		border-radius: 10px;
+		color: $white;
+
+	}
+
+	&__button {
+		display: block;
+		margin: 0.6rem auto 4.37rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		cursor: pointer;
+		transition: all .1s;
+	}
+
+	&__button:hover {
+		color: $green;
+		border-color: $green;
+	}
+
+	&__select {
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+		background: $bg-black url(../images/scroller.png) 97% center no-repeat;
+		-webkit-background-size: auto;
+		background-size: auto;
+
+	}
+	&__image {
+		display: block;
+		width: 100%;
+	}
+}
